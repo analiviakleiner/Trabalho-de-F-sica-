@@ -98,3 +98,9 @@ body::before {
   from { background-position: 0 0; }
   to { background-position: 10000px 10000px; }
 }
+
+/* Efeito de brilho para o título */
+.highlight {
+  text-shadow: 0 0 8px #fff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+  transition: text-shadow 0.5s ease-out;
+}
