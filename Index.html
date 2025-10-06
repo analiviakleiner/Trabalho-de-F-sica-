@@ -1,79 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trabalho Escolar - Espectroscópio</title>
-  <link rel="stylesheet" href="style.css"> <!-- Conexão com o CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Análise da Luz: Construção e Funcionamento de um Espectroscópio Caseiro">
+    <title>Espectroscópio Caseiro - Apresentação</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
     <header>
-      <h1>Análise da Luz: Construção e Funcionamento de um Espectroscópio Caseiro</h1>
-      <p class="subinfo">SANTO ANTÔNIO, C E-EF M PROFIS<br>
-      Disciplina: Energia e Astronomia<br>
-      Professor: José Felipe Hneda<br>
-      Curso: Ensino Médio | Série: 3º | Turma: B<br>
-      <br>
-      Ana Lívia Kleiner | Karine da Luz | Gabrielli Tainá<br>
-      Imbituva - PR | 07 de outubro de 2025</p>
+        <div class="header-container">
+            <h1>Espectroscópio Caseiro</h1>
+            <p>Uma análise da luz com base em experimentos práticos</p>
+        </div>
     </header>
 
-    <nav>
-      <button onclick="mostrarSecao('introducao')">Introdução</button>
-      <button onclick="mostrarSecao('experimento')">Experimento</button>
-      <button onclick="mostrarSecao('aplicacoes')">Aplicações Atuais</button>
-      <button onclick="mostrarSecao('referencias')">Referências</button>
-      <button onclick="mostrarSecao('agradecimentos')">Agradecimentos</button>
-    </nav>
+    <section id="intro">
+        <div class="content">
+            <h2>Introdução</h2>
+            <p>Um espectroscópio decompõe a luz, permitindo estudar a composição de estrelas e outros corpos celestes.</p>
+        </div>
+    </section>
 
-    <main id="conteudo">
-      <section id="introducao" class="ativo">
-        <h2>1 - Introdução (Karine)</h2>
-        <h3>1.1 - O que é um espectroscópio?</h3>
-        <p>É um instrumento óptico que decompõe a luz em seus comprimentos de ondas componentes, permitindo a análise de sua composição espectral.</p>
-        <h3>1.2 - Para que serve um espectroscópio?</h3>
-        <p>Para separar e analisar a radiação de um objeto, decompondo seu espectro de cores e obtendo dados como os comprimentos de ondas presentes no feixe, o que possibilita estudos sobre composição, temperatura e muito mais.</p>
-        <h3>1.3 - Quem inventou o espectroscópio?</h3>
-        <p>Joseph von Fraunhofer, em 1814, para analisar o Sol. Posteriormente, foi aprimorado por Gustav Kirchhoff e Robert Bunsen em 1860 para análise de composição de gases.</p>
-      </section>
+    <section id="sumario">
+        <div class="content">
+            <h2>Sumário</h2>
+            <ul>
+                <li><a href="introducao.html">1 - Introdução</a></li>
+                <li><a href="experimento.html">2 - Experimento</a></li>
+                <li><a href="aplicacoes.html">3 - Aplicações atuais</a></li>
+                <li><a href="fontes.html">4 - Fontes</a></li>
+                <li><a href="agradecimentos.html">5 - Agradecimentos</a></li>
+            </ul>
+        </div>
+    </section>
 
-      <section id="experimento">
-        <h2>2 - Experimento (Ana)</h2>
-        <h3>2.1 - Como funciona um espectroscópio?</h3>
-        <p>A luz é cortada em um feixe, depois passa por um meio de difração, dispersando-se em um espectro de cores.</p>
-        <h3>2.2 - Quais teorias físicas o espectroscópio utiliza?</h3>
-        <p>Se baseia no Eletromagnetismo clássico, Óptica e Física Quântica.</p>
-        <h3>2.3 - Como é feita a análise de comprimento de onda?</h3>
-        <p>É feita pela fórmula Nλ = d·sen(Θ), onde N é o número da faixa analisada, λ o comprimento de onda, d a quantidade de ranhuras no CD e Θ o ângulo entre o feixe e a observação.</p>
-      </section>
-
-      <section id="aplicacoes">
-        <h2>3 - Aplicações atuais (Gabrielli)</h2>
-        <h3>3.1 - Quem usa o espectroscópio?</h3>
-        <p>Astrônomos, astrofísicos, físicos, químicos, farmacêuticos, médicos, bioquímicos, engenheiros, geólogos, ambientalistas e outros profissionais.</p>
-        <h3>3.2 - Qual a finalidade dos dados retirados do espectroscópio?</h3>
-        <p>Análise de corpos celestes, verificação de pureza de substâncias, ressonância magnética, monitoramento do ar e da água, prospecção mineral e muito mais.</p>
-      </section>
-
-      <section id="referencias">
-        <h2>Referências</h2>
-        <ul>
-          <li>BOARO, Marcelo. Aulas de Física Moderna e Astronomia. Disponível em: https://www.professorboaro.com.br/. Acesso em: 6 out. 2025.</li>
-          <li>HEWITT, Paul G. Física Conceitual. 12. ed. Porto Alegre: Bookman, 2019.</li>
-          <li>SERWAY, Raymond A.; JEWETT, John W. Princípios de Física: Óptica e Física Moderna. 5. ed. São Paulo: Cengage Learning, 2016.</li>
-          <li>TIPLER, Paul A.; MOSCA, Gene. Física para Cientistas e Engenheiros. 6. ed. Rio de Janeiro: LTC, 2009.</li>
-          <li>UNIVERSIDADE FEDERAL DE SANTA CATARINA. Portal de Periódicos da UFSC. Disponível em: https://periodicos.ufsc.br/. Acesso em: 6 out. 2025.</li>
-        </ul>
-      </section>
-
-      <section id="agradecimentos">
-        <h2>Agradecimentos</h2>
-        <p>Agradecemos ao professor José Felipe Hneda pela orientação, paciência e explicações que tornaram possível a realização deste experimento. Também agradecemos à escola Santo Antônio pelo apoio e aos colegas de turma pela colaboração. Por fim, agradecemos a cada integrante do grupo pela dedicação, esforço e compromisso em todas as etapas da atividade.</p>
-      </section>
-    </main>
-  </div>
-
-  <script src="script.js"></script> <!-- Conexão com o JavaScript -->
+    <footer>
+        <p>&copy; 2025 Santo Antônio, C E-EF M PROFIS - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
